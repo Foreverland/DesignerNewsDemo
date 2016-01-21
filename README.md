@@ -1,5 +1,3 @@
-## App
-
 ![Image](https://raw.githubusercontent.com/3lvis/SyncDesignerNewsDemo/master/Images/app.png)
 
 ## JSON
