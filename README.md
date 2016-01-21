@@ -1,8 +1,6 @@
 ## App
 
-[Reference](https://github.com/hyperoslo/Sync/tree/master/DesignerNews)
-
-![Model](https://raw.githubusercontent.com/hyperoslo/Sync/master/DesignerNews/Images/app.png)
+![Image](https://raw.githubusercontent.com/3lvis/SyncDesignerNewsDemo/master/Images/app.png)
 
 ## JSON
 
@@ -37,7 +35,7 @@
 
 ## Model
 
-![Model](https://raw.githubusercontent.com/hyperoslo/Sync/master/DesignerNews/Images/model.png)
+![Model](https://raw.githubusercontent.com/3lvis/SyncDesignerNewsDemo/master/Images/model.png)
 
 ## Sync
 
