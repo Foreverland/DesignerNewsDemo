@@ -26,8 +26,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-
     [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.2 green:0.46 blue:0.84 alpha:1];
 
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor],
@@ -37,6 +35,7 @@
 
     StoriesViewController *mainController = [[StoriesViewController alloc] initWithDataStack:self.dataStack];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
 
