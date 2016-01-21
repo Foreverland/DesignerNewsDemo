@@ -1,8 +1,6 @@
 ![Image](https://raw.githubusercontent.com/3lvis/SyncDesignerNewsDemo/master/Images/app.png)
 
-## JSON
-
-[Reference](https://news.layervault.com/?format=json)
+## [JSON](https://news.layervault.com/?format=json)
 
 ```json
 {
@@ -36,8 +34,6 @@
 ![Model](https://raw.githubusercontent.com/3lvis/SyncDesignerNewsDemo/master/Images/model.png)
 
 ## Sync
-
-[Reference](https://github.com/hyperoslo/Sync/blob/master/DesignerNews/APIClient.m#L35-L40)
 
 ```objc
 [Sync changes:JSON[@"stories"]
