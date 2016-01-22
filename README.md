@@ -1,3 +1,5 @@
+This app demostrates how to use the [Sync](https://github.com/hyperoslo/Sync) library in Objective-C.
+
 ![Image](https://raw.githubusercontent.com/3lvis/SyncDesignerNewsDemo/master/Images/app.png)
 
 ## [JSON](https://news.layervault.com/?format=json)
