@@ -42,11 +42,4 @@
     return YES;
 }
 
-#pragma mark - Core Data stack
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    [self.dataStack persistWithCompletion:nil];
-}
-
 @end
