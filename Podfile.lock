@@ -1,50 +1,24 @@
 PODS:
-  - DATAFilter (0.10.0):
-    - DATAObjectIDs (~> 0.5.1)
-  - DATAObjectIDs (0.5.1)
-  - DATASource (5.8.0)
-  - DATAStack (5.2.0)
-  - NSDictionary-ANDYSafeValue (0.3.1)
-  - NSEntityDescription-SYNCPrimaryKey (1.1.1):
-    - NSString-HYPNetworking (~> 1.0.0)
+  - DATASource (6.1.1)
+  - DATAStack (6.1.2)
   - NSJSONSerialization-ANDYJSONFile (1.1)
-  - NSManagedObject-HYPPropertyMapper (3.6.5):
-    - NSEntityDescription-SYNCPrimaryKey (~> 1.1.1)
-    - NSString-HYPNetworking (~> 1.0.0)
-  - NSString-HYPNetworking (1.0.0)
-  - Sync (1.7.1):
-    - DATAFilter (~> 0.10.0)
-    - DATAStack (~> 5.2.0)
-    - NSDictionary-ANDYSafeValue (~> 0.3.1)
-    - NSEntityDescription-SYNCPrimaryKey (~> 1.1.1)
-    - NSManagedObject-HYPPropertyMapper (~> 3.6.5)
+  - Sync (2.3.3):
+    - DATAStack (~> 6.1.2)
+    - SYNCPropertyMapper (~> 5.1.2)
+  - SYNCPropertyMapper (5.1.2)
 
 DEPENDENCIES:
   - DATASource
   - NSJSONSerialization-ANDYJSONFile
-  - Sync (from `git@github.com:hyperoslo/Sync.git`)
-
-EXTERNAL SOURCES:
-  Sync:
-    :git: git@github.com:hyperoslo/Sync.git
-
-CHECKOUT OPTIONS:
-  Sync:
-    :commit: 82725b9b7c4f03167a99f0e7b10a63e7808db709
-    :git: git@github.com:hyperoslo/Sync.git
+  - Sync
 
 SPEC CHECKSUMS:
-  DATAFilter: b6662b05dd0dcf658d526aa0f9095bb202d7b10e
-  DATAObjectIDs: 33db74dd1c858c2d22a45a4013c95f1082182e4e
-  DATASource: d5ecdfa4be7d73d41f58746d3346e5238766c86d
-  DATAStack: 191884208ad864299d079c4350f78696ad4c9e6b
-  NSDictionary-ANDYSafeValue: 2d7adf339b6e302d71fec5f1d71ae00aacda993e
-  NSEntityDescription-SYNCPrimaryKey: 50badad9cf3b44c538e137e363f3204725c8589c
+  DATASource: fa895931841523f62c1378cbc53ef2de87e5cf30
+  DATAStack: a45fc144e15193f1b22c26b507cc46655ce96a71
   NSJSONSerialization-ANDYJSONFile: 4a92ca174d5ccde13015e853e9eb62440459b478
-  NSManagedObject-HYPPropertyMapper: c496d7a45b95fa59871711bfd3fbe52546529b37
-  NSString-HYPNetworking: 9794295fb2f632ecf33cde6e6311e77588e6f349
-  Sync: ca4c0612349734efde11f77b90716f6c45be45b8
+  Sync: df06e3a16cfac35d0192946df69900bde12c18c9
+  SYNCPropertyMapper: e4cf0f851aa3a1307a42985ab8600787b3382427
 
-PODFILE CHECKSUM: 54196017039e653745d1ad8555b9f8bf08c1171f
+PODFILE CHECKSUM: 574214534de1b53c822067a4fefb113ac64e495e
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1
