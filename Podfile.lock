@@ -2,7 +2,7 @@ PODS:
   - DATASource (6.1.1)
   - DATAStack (6.1.2)
   - NSJSONSerialization-ANDYJSONFile (1.1)
-  - Sync (2.3.3):
+  - Sync (2.3.4):
     - DATAStack (~> 6.1.2)
     - SYNCPropertyMapper (~> 5.1.2)
   - SYNCPropertyMapper (5.1.2)
@@ -16,7 +16,7 @@ SPEC CHECKSUMS:
   DATASource: fa895931841523f62c1378cbc53ef2de87e5cf30
   DATAStack: a45fc144e15193f1b22c26b507cc46655ce96a71
   NSJSONSerialization-ANDYJSONFile: 4a92ca174d5ccde13015e853e9eb62440459b478
-  Sync: df06e3a16cfac35d0192946df69900bde12c18c9
+  Sync: b946c2ab9c51153f075bcaec828215d071ddf6db
   SYNCPropertyMapper: e4cf0f851aa3a1307a42985ab8600787b3382427
 
 PODFILE CHECKSUM: 574214534de1b53c822067a4fefb113ac64e495e
